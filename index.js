@@ -296,6 +296,10 @@ client.on("messageCreate", async (message) => {
 // =========================
 // 🚀 START
 // =========================
+app.get("/", (req, res) => {
+    res.send("🔥 VIP SYSTEM ONLINE 🔥");
+});
+
 app.listen(PORT, () => {
     console.log("Servidor rodando na porta", PORT);
 });
